@@ -1,6 +1,6 @@
-#######################################
-# Analysis of 311 Calls Rat Sightings #
-#######################################
+###########################################
+# Analysis of 311 Calls for Rat Sightings #
+###########################################
 
 # This script estimates (very roughly) the NYC rat population from 311 Calls for "Rat Sightings"
 # For more detailed analysis see https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2014.00764.x
