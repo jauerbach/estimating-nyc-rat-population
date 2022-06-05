@@ -11,7 +11,7 @@
 
 library("tidyverse")
 
-# Service Requests Accessed 6/5/2022 for NYC Open Data Portal
+# "nyc_rodent_compliants.csv" contains Service Requests Accessed 6/5/2022 for NYC Open Data Portal
 ## For full data see 
 ## https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9
 ## n.b. filtered: Complaint Type == "Rodent" 
