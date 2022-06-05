@@ -30,7 +30,7 @@ df <-
   summarize(count = n()) %>%
   filter(BBL != 0)
 
-# How many lots have rats in 2011?
+# Estimate the number of lots with rats in 2011?
 lots_year_1 <- df %>% filter(Year == "10") %>% pull(BBL)
 lots_year_2 <- df %>% filter(Year == "11") %>% pull(BBL)
 number_in_year_1 <- length(lots_year_1)
@@ -39,10 +39,10 @@ number_in_year_1_and_2 <- sum(lots_year_1 %in% lots_year_2)
   
 number_in_year_1 * number_in_year_2 / number_in_year_1_and_2
 
-# Number of rats if each lot has 50 rats
+# Estimated number of rats if each lot has 50 rats
 50 * number_in_year_1 * number_in_year_2 / number_in_year_1_and_2
 
-# How many lots have rats in year x?
+# Function to estimate number of rats in any year (%y between 11 and 21) 
 capture_recapture <- function(year) {
   lots_year_1 <- df %>% filter(Year == year - 1) %>% pull(BBL)
   lots_year_2 <- df %>% filter(Year == year) %>% pull(BBL)
