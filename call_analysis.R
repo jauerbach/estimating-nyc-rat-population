@@ -5,7 +5,7 @@
 # This script estimates (very roughly) the NYC rat population from 311 Calls for "Rat Sightings"
 # For more detailed analysis see https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2014.00764.x
 
-# Author: Jonthan Auerbach
+# Author: Jonathan Auerbach
 # Contact: jauerba@gmu.edu
 # Date: 6/5/2022
 
